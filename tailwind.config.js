@@ -6,15 +6,16 @@ module.exports = {
       colors: {
         primary: '#FE4956',
         secondary: {
-          light: '#23263A',
+          light: '#2B2D41',
+          medium: '#23263A',
           dark: '#212336',
         },
       },
       padding: {
-        section: '2.5rem',
+        section: '3rem',
       },
       margin: {
-        container: '2.5rem',
+        container: '3rem',
       },
       fontSize: {
         xsmall: '.75rem',
