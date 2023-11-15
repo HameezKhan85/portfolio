@@ -23,7 +23,7 @@ module.exports = {
         large: '1.125rem',
         xlarge: '1.25rem',
         txl: '1.5rem',
-        thx: '1.875rem',
+        thxl: '1.875rem',
         fxl: '2.25rem',
         fvxl: '3rem',
         sxl: '3.75rem',
