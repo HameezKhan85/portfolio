@@ -582,6 +582,18 @@ li {
   width: 100%;
 }
 
+.w-1\/5 {
+  width: 20%;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-2\/5 {
+  width: 40%;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -650,6 +662,36 @@ li {
   padding-bottom: 2.5rem;
 }
 
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .pl-6 {
   padding-left: 1.5rem;
 }
@@ -666,12 +708,47 @@ li {
   font-size: 1.25rem;
 }
 
+.text-fvxl {
+  font-size: 3rem;
+}
+
+.text-sxl {
+  font-size: 3.75rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.leading-normal {
+  line-height: 1.5;
+}
+
 .text-primary {
   --tw-text-opacity: 1;
   color: rgb(254 73 86 / var(--tw-text-opacity));
 }
 
+.text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+.text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
 .hover\:text-primary:hover {
   --tw-text-opacity: 1;
   color: rgb(254 73 86 / var(--tw-text-opacity));
+}
+
+.hover\:opacity-80:hover {
+  opacity: 0.8;
 }
