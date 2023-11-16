@@ -16,4 +16,7 @@
     li {
         list-style: none;
     }
+    .scroll_bar-hidden::-webkit-scrollbar {
+        display: none   ;
+    }
 }
