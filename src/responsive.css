@@ -1,0 +1,17 @@
+@layer base {
+    @media (max-width: 1280px) {
+        .text-6xl {
+            font-size: 3rem !important;
+        }
+    }
+
+    @media (max-width: 1024px) {}
+
+    @media (max-width: 768px) {}
+
+    @media (max-width: 640px) {
+        .text-6xl {
+            font-size: 2.5rem !important;
+        }
+    }
+}

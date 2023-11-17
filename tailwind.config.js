@@ -8,14 +8,14 @@ module.exports = {
         secondary: {
           light: '#2B2D41',
           medium: '#23263A',
-          dark: '#212336',
+          dark: '#1e2031',  
         },
       },
       padding: {
-        section: '3rem',
+        section: '4rem',
       },
       margin: {
-        container: '3rem',
+        container: '4rem',
       },
       fontSize: {
         xsmall: '.75rem',

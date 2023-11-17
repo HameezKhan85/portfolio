@@ -550,6 +550,14 @@ li {
   --tw-backdrop-sepia:  ;
 }
 
+.sticky {
+  position: sticky;
+}
+
+.top-0 {
+  top: 0px;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -565,9 +573,14 @@ li {
   margin-bottom: 1.5rem;
 }
 
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .my-container {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .mb-10 {
@@ -594,20 +607,20 @@ li {
   margin-top: 2.5rem;
 }
 
-.mt-16 {
-  margin-top: 4rem;
+.mt-28 {
+  margin-top: 7rem;
 }
 
 .mt-6 {
   margin-top: 1.5rem;
 }
 
-.flex {
-  display: flex;
+.block {
+  display: block;
 }
 
-.inline-flex {
-  display: inline-flex;
+.flex {
+  display: flex;
 }
 
 .grid {
@@ -630,8 +643,8 @@ li {
   width: 50%;
 }
 
-.w-2\/5 {
-  width: 40%;
+.w-10\/12 {
+  width: 83.333333%;
 }
 
 .w-24 {
@@ -642,20 +655,24 @@ li {
   width: 75%;
 }
 
+.w-4\/5 {
+  width: 80%;
+}
+
 .w-full {
   width: 100%;
 }
 
-.w-10\/12 {
-  width: 83.333333%;
-}
-
-.w-11\/12 {
-  width: 91.666667%;
+.min-w-\[480px\] {
+  min-width: 480px;
 }
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 .grid-cols-2 {
@@ -664,14 +681,6 @@ li {
 
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.grid-cols-5 {
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-}
-
-.grid-rows-3 {
-  grid-template-rows: repeat(3, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -727,7 +736,7 @@ li {
 
 .bg-secondary-dark {
   --tw-bg-opacity: 1;
-  background-color: rgb(33 35 54 / var(--tw-bg-opacity));
+  background-color: rgb(30 32 49 / var(--tw-bg-opacity));
 }
 
 .bg-secondary-light {
@@ -744,9 +753,9 @@ li {
   padding: 1.5rem;
 }
 
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .px-8 {
@@ -774,40 +783,9 @@ li {
   padding-bottom: 1.5rem;
 }
 
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
 .py-section {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.pl-6 {
-  padding-left: 1.5rem;
-}
-
-.pr-6 {
-  padding-right: 1.5rem;
-}
-
-.pl-3 {
-  padding-left: 0.75rem;
-}
-
-.pr-3 {
-  padding-right: 0.75rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .pl-4 {
@@ -818,28 +796,38 @@ li {
   padding-right: 1rem;
 }
 
-.text-fvxl {
-  font-size: 3rem;
+.text-center {
+  text-align: center;
 }
 
-.text-fxl {
-  font-size: 2.25rem;
-}
-
-.text-large {
-  font-size: 1.125rem;
-}
-
-.text-sxl {
-  font-size: 3.75rem;
-}
-
-.text-thxl {
+.text-3xl {
   font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
-.text-xlarge {
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl {
   font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -922,7 +910,33 @@ li {
   opacity: 0.8;
 }
 
+@media (min-width: 640px) {
+  .sm\:block {
+    display: block;
+  }
+
+  .sm\:w-4\/5 {
+    width: 80%;
+  }
+
+  .sm\:w-3\/5 {
+    width: 60%;
+  }
+
+  .sm\:w-3\/4 {
+    width: 75%;
+  }
+
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 @media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+
   .md\:inline-flex {
     display: inline-flex;
   }
@@ -930,15 +944,39 @@ li {
   .md\:hidden {
     display: none;
   }
-
-  .md\:w-10\/12 {
-    width: 83.333333%;
-  }
 }
 
 @media (min-width: 1024px) {
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:w-2\/5 {
+    width: 40%;
+  }
+
   .lg\:w-3\/4 {
     width: 75%;
+  }
+
+  .lg\:w-3\/5 {
+    width: 60%;
+  }
+
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:items-start {
+    align-items: flex-start;
   }
 
   .lg\:px-6 {
@@ -952,5 +990,29 @@ li {
 
   .lg\:pr-6 {
     padding-right: 1.5rem;
+  }
+
+  .lg\:text-start {
+    text-align: start;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:block {
+    display: block;
+  }
+
+  .xl\:w-2\/5 {
+    width: 40%;
+  }
+
+  .xl\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 }
