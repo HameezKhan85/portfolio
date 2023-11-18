@@ -4,9 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONTAWSOME-PLUGIN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- GOOGLE-FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+    <!-- CUSTOM-CSS -->
     <link rel="stylesheet" href="css/output.css">
     <link rel="stylesheet" href="../src/responsive.css">
     <title>Porfolio</title>
@@ -37,15 +43,14 @@
         <div class="w-10/12 lg:w-3/4 h-full mx-auto">
             <div class="grid grid-cols-1 lg:grid-cols-2 justify-center items-center">
                 <div class="h-full flex flex-col justify-center items-center lg:items-start text-center lg:text-start">
-                    <h1 class="text-6xl font-bold">Hello, I'm a <br class="hidden sm:block lg:hidden xl:block">
-                        Front-end Developer</h1>
+                    <h1 class="text-6xl font-bold">Hello, I'm a Front-end Developer</h1>
                     <p class="sm:w-4/5 my-8 text-gray-300">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                         Laudantium
                         amet molestias exercitationem fugit sint illum iusto corporis dicta consequuntur, voluptates
                         officia, quis ipsa inventore.</p>
-                    <a href="#work" class="bg-primary px-8 py-3 hover:opacity-80">PROJECTS</a>
+                    <a href="#project" class="bg-primary px-8 py-3 hover:opacity-80">PROJECTS</a>
                 </div>
-                <img class="hidden lg:block min-w-[480px]" src="../images/22.png" alt="">
+                <img class="hidden lg:block min-w-[480px]" src="../images/svg/22.png" alt="">
             </div>
         </div>
     </main>
@@ -123,7 +128,7 @@
                         natus reiciendis aliquid quae odit sapiente itaque eius, possimus deserunt sunt.</p>
                     <a href="#contact" class="bg-primary px-8 py-3 hover:opacity-80 mt-6">CONTACT</a>
                 </div>
-                <img class="hidden lg:block min-w-[480px]" src="../images/202.png" alt="">
+                <img class="hidden lg:block min-w-[480px]" src="../images/svg/202.png" alt="">
             </div>
         </div>
     </section>
@@ -132,17 +137,19 @@
     <!-- PROJECTS ______ START -->
     <section id="project" class="w-full py-section">
         <div class="w-10/12 xl:w-3/4 h-full mx-auto my-container">
-            <div class="mb-8 mx-auto w-3/4 lg:w-2/5 text-center">
+            <div class="w-3/4 lg:w-2/5 mb-6 mx-auto text-center">
                 <h2 class="text-4xl font-bold">My Projects</h2>
                 <p class="my-6 text-gray-300"">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ut culpa porro beatae quia sit amet consectetur.</p>
                 <hr class=" w-24 h-1 bg-primary border-0 my-6 mx-auto">
             </div>
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-10 gap-y-10 justify-center items-center mt-28">
+            <div
+                class="grid grid-cols-1 lg:grid-cols-2 gap-x-20 xl:gap-x-10 2xl:gap-x-20 gap-y-32 justify-center items-center mt-28">
+                <!-- Project-1 -->
                 <div class="lg:hidden">
-                    <img class="" src="../images/Mockups/Good Meat.png" alt="">
+                    <img src="../images/Mockups/Good Meat.png" alt="">
                 </div>
-                <div class="flex flex-col justify-center items-center sm:items-start text-center sm:text-start">
-                    <h4 class="text-3xl font-bold text-red-600">Good Meat</h4>
+                <div class="flex flex-col justify-center items-center lg:items-start text-center lg:text-start">
+                    <h3 class="text-3xl font-bold mb-4">Website - 1</h3>
                     <p class="text-gray-300 my-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus
                         magni
                         culpa, delectus iste iusto
@@ -152,42 +159,46 @@
                     <div class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 2xl:gap-6 my-6">
                         <div class="bg-secondary-light p-4 2xl:p-6 flex justify-between items-center hover:opacity-80">
                             <h4 class="text-gray-300 text-lg mr-4">H<span
-                                    class="uppercase xl:lowercase text-gray-300">tml</span></h4>
+                                    class="uppercase lg:lowercase text-gray-300">tml</span></h4>
                             <i class="fa-brands fa-html5 fa-lg text-gray-300 lg:hidden xl:block"></i>
                         </div>
                         <div class="bg-secondary-light p-4 2xl:p-6 flex justify-between items-center hover:opacity-80">
                             <h4 class="text-gray-300 text-lg mr-4">C<span
-                                    class="uppercase xl:lowercase text-gray-300">ss</span></h4>
+                                    class="uppercase lg:lowercase text-gray-300">ss</span></h4>
                             <i class="fa-brands fa-css3-alt fa-lg text-gray-300 lg:hidden xl:block"></i>
                         </div>
                         <div class="bg-secondary-light p-4 2xl:p-6 flex justify-between items-center hover:opacity-80">
                             <h4 class="text-gray-300 text-lg mr-4">J<span
-                                    class="uppercase xl:lowercase text-gray-300">avascript</span></h4>
+                                    class="uppercase lg:lowercase text-gray-300">avascript</span></h4>
                             <i class="fa-brands fa-js fa-lg text-gray-300 lg:hidden xl:block"></i>
                         </div>
                         <div class="bg-secondary-light p-4 2xl:p-6 flex justify-between items-center hover:opacity-80">
                             <h4 class="text-gray-300 text-lg mr-4">B<span
-                                    class="uppercase xl:lowercase text-gray-300">ootstrap</span></h4>
+                                    class="uppercase lg:lowercase text-gray-300">ootstrap</span></h4>
                             <i class="fa-brands fa-bootstrap fa-lg text-gray-300 lg:hidden xl:block"></i>
                         </div>
                         <div class="bg-secondary-light p-4 2xl:p-6 flex justify-between items-center hover:opacity-80">
                             <h4 class="text-gray-300 text-lg mr-4">G<span
-                                    class="uppercase xl:lowercase text-gray-300">ithub</span></h4>
+                                    class="uppercase lg:lowercase text-gray-300">ithub</span></h4>
                             <i class="fa-brands fa-github fa-lg text-gray-300 lg:hidden xl:block"></i>
                         </div>
                         <div class="bg-secondary-light p-4 2xl:p-6 flex justify-between items-center hover:opacity-80">
                             <h4 class="text-gray-300 text-lg mr-4">R<span
-                                    class="uppercase xl:lowercase text-gray-300">esponsive</span></h4>
+                                    class="uppercase lg:lowercase text-gray-300">esponsive</span></h4>
                             <i class="fa-solid fa-mobile-screen-button fa-lg text-gray-300 lg:hidden xl:block"></i>
                         </div>
                     </div>
                     <div class="hidden sm:flex justify-center items-center mt-4">
-                        <a href="#" class="border-solid border-2 border-primary bg-primary mr-6 px-8 py-3 hover:opacity-80">Website Images</a>
+                        <a href="#"
+                            class="border-solid border-2 border-primary bg-primary mr-4 px-8 py-3 hover:opacity-80">Website
+                            Images</a>
                         <a href="#" class="border-solid border-2 border-primary px-8 py-3 hover:bg-primary">Project
                             Code <i class="fa-solid fa-code text-gray-300 ml-2"></i></a>
                     </div>
                     <div class="grid grid-cols-1 gap-y-6 mx-auto sm:hidden mt-4">
-                        <a href="#" class="border-solid border-2 border-primary bg-primary px-8 py-3 hover:opacity-80">Website Images</a>
+                        <a href="#"
+                            class="border-solid border-2 border-primary bg-primary px-8 py-3 hover:opacity-80">Website
+                            Images</a>
                         <a href="#" class="border-solid border-2 border-primary px-8 py-3 hover:bg-primary">Project
                             Code <i class="fa-solid fa-code text-gray-300 ml-2"></i></a>
                     </div>
@@ -195,171 +206,243 @@
                 <div class="hidden lg:block">
                     <img class="min-w-[480px]" src="../images/Mockups/Good Meat.png" alt="">
                 </div>
-                <!-- <div class="flex flex-col justify-center items-start">
-                    <h4 class="text-3xl font-bold text-green-500">Modern Meat</h4>
-                    <p class="text-gray-300 my-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus magni
+                <!-- Project-2 -->
+                <div class="lg:hidden">
+                    <img src="../images/Mockups/Modern Meat.png" alt="">
+                </div>
+                <div class="flex flex-col justify-center items-center lg:items-start text-center lg:text-start">
+                    <h3 class="text-3xl font-bold mb-4">Website - 2</h3>
+                    <p class="text-gray-300 my-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus
+                        magni
                         culpa, delectus iste iusto
-                        molestiae alias tempore. Omnis temporibus vitae nulla quis possimus eius rem, iusto ullam qui
+                        molestiae alias tempore. Omnis temporibus vitae nulla quis possimus eius rem, iusto ullam
+                        qui
                         rerum eligendi.</p>
-                    <div class="grid grid-cols-3 gap-6 my-6">
-                        <div class="bg-secondary-light p-6 flex justify-between items-center hover:opacity-80">
-                            <h4 class="text-gray-300 text-lg">HTML</h4>
-                            <i class="fa-brands fa-html5 fa-lg text-gray-300"></i>
+                    <div class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 2xl:gap-6 my-6">
+                        <div class="bg-secondary-light p-4 2xl:p-6 flex justify-between items-center hover:opacity-80">
+                            <h4 class="text-gray-300 text-lg mr-4">H<span
+                                    class="uppercase lg:lowercase text-gray-300">tml</span></h4>
+                            <i class="fa-brands fa-html5 fa-lg text-gray-300 lg:hidden xl:block"></i>
                         </div>
-                        <div class="bg-secondary-light p-6 flex justify-between items-center hover:opacity-80">
-                            <h4 class="text-gray-300 text-lg">CSS</h4>
-                            <i class="fa-brands fa-css3-alt fa-lg text-gray-300"></i>
+                        <div class="bg-secondary-light p-4 2xl:p-6 flex justify-between items-center hover:opacity-80">
+                            <h4 class="text-gray-300 text-lg mr-4">C<span
+                                    class="uppercase lg:lowercase text-gray-300">ss</span></h4>
+                            <i class="fa-brands fa-css3-alt fa-lg text-gray-300 lg:hidden xl:block"></i>
                         </div>
-                        <div class="bg-secondary-light p-6 flex justify-between items-center hover:opacity-80">
-                            <h4 class="text-gray-300 text-lg">JAVASCRIPT</h4>
-                            <i class="fa-brands fa-js fa-lg text-gray-300"></i>
+                        <div class="bg-secondary-light p-4 2xl:p-6 flex justify-between items-center hover:opacity-80">
+                            <h4 class="text-gray-300 text-lg mr-4">J<span
+                                    class="uppercase lg:lowercase text-gray-300">avascript</span></h4>
+                            <i class="fa-brands fa-js fa-lg text-gray-300 lg:hidden xl:block"></i>
                         </div>
-                        <div class="bg-secondary-light p-6 flex justify-between items-center hover:opacity-80">
-                            <h4 class="text-gray-300 text-lg">BOOTSTRAP</h4>
-                            <i class="fa-brands fa-bootstrap fa-lg text-gray-300"></i>
+                        <div class="bg-secondary-light p-4 2xl:p-6 flex justify-between items-center hover:opacity-80">
+                            <h4 class="text-gray-300 text-lg mr-4">B<span
+                                    class="uppercase lg:lowercase text-gray-300">ootstrap</span></h4>
+                            <i class="fa-brands fa-bootstrap fa-lg text-gray-300 lg:hidden xl:block"></i>
                         </div>
-                        <div class="bg-secondary-light p-6 flex justify-between items-center hover:opacity-80">
-                            <h4 class="text-gray-300 text-lg">GITHUB</h4>
-                            <i class="fa-brands fa-github fa-xl text-gray-30"></i>
+                        <div class="bg-secondary-light p-4 2xl:p-6 flex justify-between items-center hover:opacity-80">
+                            <h4 class="text-gray-300 text-lg mr-4">G<span
+                                    class="uppercase lg:lowercase text-gray-300">ithub</span></h4>
+                            <i class="fa-brands fa-github fa-lg text-gray-300 lg:hidden xl:block"></i>
                         </div>
-                        <div class="bg-secondary-light p-6 flex justify-between items-center hover:opacity-80">
-                            <h4 class="text-gray-300 text-lg">RESPONSIVE</h4>
-                            <i class="fa-solid fa-mobile-screen-button fa-lg text-gray-300"></i>
+                        <div class="bg-secondary-light p-4 2xl:p-6 flex justify-between items-center hover:opacity-80">
+                            <h4 class="text-gray-300 text-lg mr-4">R<span
+                                    class="uppercase lg:lowercase text-gray-300">esponsive</span></h4>
+                            <i class="fa-solid fa-mobile-screen-button fa-lg text-gray-300 lg:hidden xl:block"></i>
                         </div>
                     </div>
-                    <div class="flex justify-start items-center w-full">
-                        <a href="#" class="bg-primary px-8 py-3 mr-6 hover:opacity-80">Website Images</a>
-                        <a href="#" class="border-solid border-2 border-primary px-8 py-3 hover:bg-primary">Project Code
-                            <i class="fa-solid fa-code text-gray-300 ml-2"></i></a>
+                    <div class="hidden sm:flex justify-center items-center mt-4">
+                        <a href="#"
+                            class="border-solid border-2 border-primary bg-primary mr-4 px-8 py-3 hover:opacity-80">Website
+                            Images</a>
+                        <a href="#" class="border-solid border-2 border-primary px-8 py-3 hover:bg-primary">Project
+                            Code <i class="fa-solid fa-code text-gray-300 ml-2"></i></a>
+                    </div>
+                    <div class="grid grid-cols-1 gap-y-6 mx-auto sm:hidden mt-4">
+                        <a href="#"
+                            class="border-solid border-2 border-primary bg-primary px-8 py-3 hover:opacity-80">Website
+                            Images</a>
+                        <a href="#" class="border-solid border-2 border-primary px-8 py-3 hover:bg-primary">Project
+                            Code <i class="fa-solid fa-code text-gray-300 ml-2"></i></a>
                     </div>
                 </div>
-                <div class="">
-                    <img class="" src="../images/Mockups/Modern Meat.png" alt="">
+                <div class="hidden lg:block">
+                    <img class="min-w-[480px]" src="../images/Mockups/Modern Meat.png" alt="">
                 </div>
-                <div class="flex flex-col justify-center items-start">
-                    <h4 class="text-3xl font-bold text-red-500">Wagyu Meat</h4>
-                    <p class="text-gray-300 my-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus magni
+                <!-- Project-3 -->
+                <div class="lg:hidden">
+                    <img src="../images/Mockups/Wagyu Meat.png" alt="">
+                </div>
+                <div class="flex flex-col justify-center items-center lg:items-start text-center lg:text-start">
+                    <h3 class="text-3xl font-bold mb-4">Website - 3</h3>
+                    <p class="text-gray-300 my-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus
+                        magni
                         culpa, delectus iste iusto
-                        molestiae alias tempore. Omnis temporibus vitae nulla quis possimus eius rem, iusto ullam qui
+                        molestiae alias tempore. Omnis temporibus vitae nulla quis possimus eius rem, iusto ullam
+                        qui
                         rerum eligendi.</p>
-                    <div class="grid grid-cols-3 gap-6 my-6">
-                        <div class="bg-secondary-light p-6 flex justify-between items-center hover:opacity-80">
-                            <h4 class="text-gray-300 text-lg">HTML</h4>
-                            <i class="fa-brands fa-html5 fa-lg text-gray-300"></i>
+                    <div class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 2xl:gap-6 my-6">
+                        <div class="bg-secondary-light p-4 2xl:p-6 flex justify-between items-center hover:opacity-80">
+                            <h4 class="text-gray-300 text-lg mr-4">H<span
+                                    class="uppercase lg:lowercase text-gray-300">tml</span></h4>
+                            <i class="fa-brands fa-html5 fa-lg text-gray-300 lg:hidden xl:block"></i>
                         </div>
-                        <div class="bg-secondary-light p-6 flex justify-between items-center hover:opacity-80">
-                            <h4 class="text-gray-300 text-lg">CSS</h4>
-                            <i class="fa-brands fa-css3-alt fa-lg text-gray-300"></i>
+                        <div class="bg-secondary-light p-4 2xl:p-6 flex justify-between items-center hover:opacity-80">
+                            <h4 class="text-gray-300 text-lg mr-4">C<span
+                                    class="uppercase lg:lowercase text-gray-300">ss</span></h4>
+                            <i class="fa-brands fa-css3-alt fa-lg text-gray-300 lg:hidden xl:block"></i>
                         </div>
-                        <div class="bg-secondary-light p-6 flex justify-between items-center hover:opacity-80">
-                            <h4 class="text-gray-300 text-lg">JAVASCRIPT</h4>
-                            <i class="fa-brands fa-js fa-lg text-gray-300"></i>
+                        <div class="bg-secondary-light p-4 2xl:p-6 flex justify-between items-center hover:opacity-80">
+                            <h4 class="text-gray-300 text-lg mr-4">J<span
+                                    class="uppercase lg:lowercase text-gray-300">avascript</span></h4>
+                            <i class="fa-brands fa-js fa-lg text-gray-300 lg:hidden xl:block"></i>
                         </div>
-                        <div class="bg-secondary-light p-6 flex justify-between items-center hover:opacity-80">
-                            <h4 class="text-gray-300 text-lg">BOOTSTRAP</h4>
-                            <i class="fa-brands fa-bootstrap fa-lg text-gray-300"></i>
+                        <div class="bg-secondary-light p-4 2xl:p-6 flex justify-between items-center hover:opacity-80">
+                            <h4 class="text-gray-300 text-lg mr-4">B<span
+                                    class="uppercase lg:lowercase text-gray-300">ootstrap</span></h4>
+                            <i class="fa-brands fa-bootstrap fa-lg text-gray-300 lg:hidden xl:block"></i>
                         </div>
-                        <div class="bg-secondary-light p-6 flex justify-between items-center hover:opacity-80">
-                            <h4 class="text-gray-300 text-lg">GITHUB</h4>
-                            <i class="fa-brands fa-github fa-xl text-gray-30"></i>
-                        </div>
-                        <div class="bg-secondary-light p-6 flex justify-between items-center hover:opacity-80">
-                            <h4 class="text-gray-300 text-lg">RESPONSIVE</h4>
-                            <i class="fa-solid fa-mobile-screen-button fa-lg text-gray-300"></i>
+                        <div class="bg-secondary-light p-4 2xl:p-6 flex justify-between items-center hover:opacity-80">
+                            <h4 class="text-gray-300 text-lg mr-4">R<span
+                                    class="uppercase lg:lowercase text-gray-300">esponsive</span></h4>
+                            <i class="fa-solid fa-mobile-screen-button fa-lg text-gray-300 lg:hidden xl:block"></i>
                         </div>
                     </div>
-                    <div class="flex justify-start items-center w-full">
-                        <a href="#" class="bg-primary px-8 py-3 mr-6 hover:opacity-80">Website Images</a>
-                        <a href="#" class="border-solid border-2 border-primary px-8 py-3 hover:bg-primary">Project Code
-                            <i class="fa-solid fa-code text-gray-300 ml-2"></i></a>
+                    <div class="hidden sm:flex justify-center items-center mt-4">
+                        <a href="#"
+                            class="border-solid border-2 border-primary bg-primary mr-4 px-8 py-3 hover:opacity-80">Website
+                            Images</a>
+                        <span class="text-gray-300 text-xs">Sorry, Source code is not available.</span>
+                    </div>
+                    <div class="grid grid-cols-1 gap-y-6 mx-auto sm:hidden mt-4">
+                        <a href="#"
+                            class="border-solid border-2 border-primary bg-primary px-8 py-3 hover:opacity-80">Website
+                            Images</a>
+                        <span class="text-gray-300 text-xs">Sorry, Source code is not available.</span>
                     </div>
                 </div>
-                <div class="">
-                    <img class="" src="../images/Mockups/Wagyu Meat.png" alt="">
+                <div class="hidden lg:block">
+                    <img class="min-w-[480px]" src="../images/Mockups/Wagyu Meat.png" alt="">
                 </div>
-                <div class="flex flex-col justify-center items-start">
-                    <h4 class="text-3xl font-bold">Educod</h4>
-                    <p class="text-gray-300 my-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus magni
+                <!-- Project-4 -->
+                <div class="lg:hidden">
+                    <img src="../images/Mockups/Educod.png" alt="">
+                </div>
+                <div class="flex flex-col justify-center items-center lg:items-start text-center lg:text-start">
+                    <h3 class="text-3xl font-bold mb-4">Website - 4</h3>
+                    <p class="text-gray-300 my-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus
+                        magni
                         culpa, delectus iste iusto
-                        molestiae alias tempore. Omnis temporibus vitae nulla quis possimus eius rem, iusto ullam qui
+                        molestiae alias tempore. Omnis temporibus vitae nulla quis possimus eius rem, iusto ullam
+                        qui
                         rerum eligendi.</p>
-                    <div class="grid grid-cols-3 gap-6 my-6">
-                        <div class="bg-secondary-light p-6 flex justify-between items-center hover:opacity-80">
-                            <h4 class="text-gray-300 text-lg">HTML</h4>
-                            <i class="fa-brands fa-html5 fa-lg text-gray-300"></i>
+                    <div class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 2xl:gap-6 my-6">
+                        <div class="bg-secondary-light p-4 2xl:p-6 flex justify-between items-center hover:opacity-80">
+                            <h4 class="text-gray-300 text-lg mr-4">H<span
+                                    class="uppercase lg:lowercase text-gray-300">tml</span></h4>
+                            <i class="fa-brands fa-html5 fa-lg text-gray-300 lg:hidden xl:block"></i>
                         </div>
-                        <div class="bg-secondary-light p-6 flex justify-between items-center hover:opacity-80">
-                            <h4 class="text-gray-300 text-lg">CSS</h4>
-                            <i class="fa-brands fa-css3-alt fa-lg text-gray-300"></i>
+                        <div class="bg-secondary-light p-4 2xl:p-6 flex justify-between items-center hover:opacity-80">
+                            <h4 class="text-gray-300 text-lg mr-4">C<span
+                                    class="uppercase lg:lowercase text-gray-300">ss</span></h4>
+                            <i class="fa-brands fa-css3-alt fa-lg text-gray-300 lg:hidden xl:block"></i>
                         </div>
-                        <div class="bg-secondary-light p-6 flex justify-between items-center hover:opacity-80">
-                            <h4 class="text-gray-300 text-lg">TAILWIND</h4>
-                            <i class="fa-solid fa-wind fa-lg text-gray-300"></i>
+                        <div class="bg-secondary-light p-4 2xl:p-6 flex justify-between items-center hover:opacity-80">
+                            <h4 class="text-gray-300 text-lg mr-4">T<span
+                                    class="uppercase lg:lowercase text-gray-300">ailwind</span></h4>
+                            <i class="fa-solid fa-wind fa-lg text-gray-300 lg:hidden xl:block"></i>
                         </div>
-                        <div class="bg-secondary-light p-6 flex justify-between items-center hover:opacity-80">
-                            <h4 class="text-gray-300 text-lg">GITHUB</h4>
-                            <i class="fa-brands fa-github fa-xl text-gray-30"></i>
-                        </div>
-                        <div class="bg-secondary-light p-6 flex justify-between items-center hover:opacity-80">
-                            <h4 class="text-gray-300 text-lg">RESPONSIVE</h4>
-                            <i class="fa-solid fa-mobile-screen-button fa-lg text-gray-300"></i>
+                        <div class="bg-secondary-light p-4 2xl:p-6 flex justify-between items-center hover:opacity-80">
+                            <h4 class="text-gray-300 text-lg mr-4">R<span
+                                    class="uppercase lg:lowercase text-gray-300">esponsive</span></h4>
+                            <i class="fa-solid fa-mobile-screen-button fa-lg text-gray-300 lg:hidden xl:block"></i>
                         </div>
                     </div>
-                    <a href="#" class="bg-primary px-8 py-3 mr-6 hover:opacity-80">Website Images</a>
+                    <div class="hidden sm:flex justify-center items-center mt-4">
+                        <a href="#"
+                            class="border-solid border-2 border-primary bg-primary mr-4 px-8 py-3 hover:opacity-80">Website
+                            Images</a>
+                        <span class="text-gray-300 text-xs">Sorry, Source code is not available.</span>
+                    </div>
+                    <div class="grid grid-cols-1 gap-y-6 mx-auto sm:hidden mt-4">
+                        <a href="#"
+                            class="border-solid border-2 border-primary bg-primary px-8 py-3 hover:opacity-80">Website
+                            Images</a>
+                        <span class="text-gray-300 text-xs">Sorry, Source code is not available.</span>
+                    </div>
                 </div>
-                <div class="">
-                    <img class="" src="../images/Mockups/Educod.png" alt="">
+                <div class="hidden lg:block">
+                    <img class="min-w-[480px]" src="../images/Mockups/Educod.png" alt="">
                 </div>
-                <div class="flex flex-col justify-center items-start">
-                    <h4 class="text-3xl font-bold text-blue-600">Startup</h4>
-                    <p class="text-gray-300 my-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus magni
+                <!-- Project-5 -->
+                <div class="lg:hidden">
+                    <img src="../images/Mockups/Startup.png" alt="">
+                </div>
+                <div class="flex flex-col justify-center items-center lg:items-start text-center lg:text-start">
+                    <h3 class="text-3xl font-bold mb-4">Website - 5</h3>
+                    <p class="text-gray-300 my-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus
+                        magni
                         culpa, delectus iste iusto
-                        molestiae alias tempore. Omnis temporibus vitae nulla quis possimus eius rem, iusto ullam qui
+                        molestiae alias tempore. Omnis temporibus vitae nulla quis possimus eius rem, iusto ullam
+                        qui
                         rerum eligendi.</p>
-                    <div class="grid grid-cols-3 gap-6 my-6">
-                        <div class="bg-secondary-light p-6 flex justify-between items-center hover:opacity-80">
-                            <h4 class="text-gray-300 text-lg">HTML</h4>
-                            <i class="fa-brands fa-html5 fa-lg text-gray-300"></i>
+                    <div class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 2xl:gap-6 my-6">
+                        <div class="bg-secondary-light p-4 2xl:p-6 flex justify-between items-center hover:opacity-80">
+                            <h4 class="text-gray-300 text-lg mr-4">H<span
+                                    class="uppercase lg:lowercase text-gray-300">tml</span></h4>
+                            <i class="fa-brands fa-html5 fa-lg text-gray-300 lg:hidden xl:block"></i>
                         </div>
-                        <div class="bg-secondary-light p-6 flex justify-between items-center hover:opacity-80">
-                            <h4 class="text-gray-300 text-lg">CSS</h4>
-                            <i class="fa-brands fa-css3-alt fa-lg text-gray-300"></i>
+                        <div class="bg-secondary-light p-4 2xl:p-6 flex justify-between items-center hover:opacity-80">
+                            <h4 class="text-gray-300 text-lg mr-4">C<span
+                                    class="uppercase lg:lowercase text-gray-300">ss</span></h4>
+                            <i class="fa-brands fa-css3-alt fa-lg text-gray-300 lg:hidden xl:block"></i>
                         </div>
-                        <div class="bg-secondary-light p-6 flex justify-between items-center hover:opacity-80">
-                            <h4 class="text-gray-300 text-lg">TAILWIND</h4>
-                            <i class="fa-solid fa-wind fa-lg text-gray-300"></i>
+                        <div class="bg-secondary-light p-4 2xl:p-6 flex justify-between items-center hover:opacity-80">
+                            <h4 class="text-gray-300 text-lg mr-4">T<span
+                                    class="uppercase lg:lowercase text-gray-300">ailwind</span></h4>
+                            <i class="fa-solid fa-wind fa-lg text-gray-300 lg:hidden xl:block"></i>
                         </div>
                     </div>
-                    <a href="#" class="bg-primary px-8 py-3 mr-6 hover:opacity-80">Website Images</a>
+                    <div class="hidden sm:flex justify-center items-center mt-4">
+                        <a href="#"
+                            class="border-solid border-2 border-primary bg-primary mr-4 px-8 py-3 hover:opacity-80">Website
+                            Images</a>
+                        <span class="text-gray-300 text-xs">Sorry, Source code is not available.</span>
+                    </div>
+                    <div class="grid grid-cols-1 gap-y-6 mx-auto sm:hidden mt-4">
+                        <a href="#"
+                            class="border-solid border-2 border-primary bg-primary px-8 py-3 hover:opacity-80">Website
+                            Images</a>
+                        <span class="text-gray-300 text-xs">Sorry, Source code is not available.</span>
+                    </div>
                 </div>
-                <div class="">
-                    <img class="" src="../images/Mockups/Startup.png" alt="">
-                </div> -->
+                <div class="hidden lg:block">
+                    <img class="min-w-[480px]" src="../images/Mockups/Startup.png" alt="">
+                </div>
             </div>
         </div>
     </section>
     <!-- PROJECTS ______ END -->
 
     <!-- CONTACT ______ START -->
-    <section class="w-full py-section">
+    <section id="contact" class="w-full py-section">
         <div class="w-3/4 h-full mx-auto my-container">
-            <div class="grid grid-cols-2">
+            <div class="grid grid-cols-1 lg:grid-cols-2 justify-center items-center">
                 <div>
-                    <div class="mb-8">
-                        <h2 class="text-5xl font-bold">Connect with me</h2>
+                    <div class="mb-8 text-center lg:text-start">
+                        <h2 class="text-5xl font-bold">Connect With Me</h2>
                         <p class="my-6 text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <hr class="w-24 h-1 bg-primary border-0">
+                        <hr class="w-24 h-1 bg-primary border-0 mx-auto lg:mx-0">
                     </div>
-                    <form method="post" action="">
+                    <form method="post" action="" class="flex lg:block flex-col justify-center item-center">
                         <input type="email" name="email"
                             class="p-6 bg-secondary-light placeholder-gray-300 mb-6 w-full hover:opacity-80"
                             placeholder="Email" required>
-                        <input type="text" name="massage"
-                            class="p-6 bg-secondary-light placeholder-gray-300 mb-6 w-full hover:opacity-80"
-                            placeholder="Massage" required>
-                        <button class="bg-primary px-8 py-3 hover:opacity-80">SEND MASSAGE</button>
+                        <textarea class="p-6 bg-secondary-light placeholder-gray-300 mb-6 w-full hover:opacity-80"
+                            placeholder="Massage" name="massage" rows="6"></textarea>
+                        <button class="bg-primary px-8 py-3 mx-auto lg:mx-0 hover:opacity-80">SEND MASSAGE</button>
                     </form>
                 </div>
+                <img class="hidden lg:block min-w-[480px]" src="../images/svg/14.png" alt="">
             </div>
         </div>
     </section>
@@ -368,25 +451,27 @@
     <!-- INFORMATION ______ START -->
     <section class="w-full py-section">
         <div class="w-3/4 h-full mx-auto my-container">
-            <h3 class="text-4xl font-bold mb-6">Additional Information</h3>
-            <div class="grid grid-cols-2 gap-x-6 w-1/2">
-                <div class="bg-secondary-light p-6 flex justify-start items-center hover:opacity-80">
-                    <i class="fa-regular fa-envelope fa-lg text-gray-300 mr-3"></i>
-                    <a href="#" class="text-gray-300 text-lg">hameezkhan85@gmail.com</a>
+            <div class="flex flex-col justify-center items-center text-center">
+                <h3 class="text-4xl font-bold mb-6">Additional Information</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="bg-secondary-light p-6 flex justify-center items-center hover:opacity-80">
+                        <i class="fa-regular fa-envelope fa-lg text-gray-300 mr-3"></i>
+                        <a href="#" class="text-gray-300 text-lg">hameezkhan85@gmail.com</a>
+                    </div>
+                    <div class="bg-secondary-light p-6 flex justify-center items-center hover:opacity-80">
+                        <i class="fa-solid fa-location-dot fa-lg text-gray-300 mr-3"></i>
+                        <h4 class="text-gray-300 text-lg">Lahore, Pakistan</h4>
+                    </div>
                 </div>
-                <div class="bg-secondary-light p-6 flex justify-start items-center hover:opacity-80">
-                    <i class="fa-solid fa-location-dot fa-lg text-gray-300 mr-3"></i>
-                    <h4 class="text-gray-300 text-lg">Lahore, Pakistan</h4>
-                </div>
-            </div>
-            <div class="flex flex-col justify-center items-start mt-10">
-                <h4 class="text-3xl font-bold text-gray-300">Social Links</h4>
-                <div class="mt-6">
-                    <a href="#" class="mr-6"><i
-                            class="fa-brands fa-facebook fa-xl text-gray-300 hover:text-blue-500"></i></a>
-                    <a href="#" class="mr-6"><i
-                            class="fa-brands fa-linkedin-in fa-xl text-gray-300 hover:text-sky-500"></i></a>
-                    <a href="#" class=""><i class="fa-brands fa-github fa-xl text-gray-300 hover:text-white"></i></a>
+                <div class="flex flex-col justify-center items-center mt-6">
+                    <h4 class="text-3xl font-bold text-gray-300">Social Links</h4>
+                    <div class="mt-6">
+                        <a href="#" class="mr-6"><i
+                                class="fa-brands fa-linkedin-in fa-xl text-gray-300 hover:text-sky-500"></i></a>
+                        <a href="#" class="mr-6"><i
+                                class="fa-brands fa-github fa-xl text-gray-300 hover:text-white"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook fa-xl text-gray-300 hover:text-blue-500"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -396,15 +481,17 @@
     <!-- FOOTER ______ START -->
     <footer class="w-full bg-secondary-dark py-10">
         <div class="w-3/4 h-full mx-auto">
-            <div>
-                <h3 class="text-3xl font-bold">HAMEEZ <span class="text-primary">KHAN</span></h3>
-                <p class="w-1/2 py-3 text-gray-300">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium
-                    amet molestias exercitationem fugit sint illum iusto corporis dicta consequuntur, voluptates
-                    officia, quis ipsa inventore.</p>
-            </div>
-            <div>
-                <hr class="w-1/2 h-1 bg-primary border-0 my-6">
-                <p>© Copyright 2023. Made by <a href="#" class="underline cursor-pointer">Hameez Khan</a></p>
+            <div class="grid grid-cols-1 lg:grid-cols-2 justify-center items-center">
+                <div class="flex flex-col justify-center items-center lg:items-start text-center lg:text-start">
+                    <h3 class="text-3xl font-bold">HAMEEZ <span class="text-primary">KHAN</span></h3>
+                    <p class="lg:w-3/4 py-3 text-gray-300">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Laudantium
+                        amet molestias exercitationem fugit sint illum iusto corporis dicta consequuntur, voluptates
+                        officia, quis ipsa inventore.</p>
+                    <hr class="w-full h-1 bg-primary border-0 my-6">
+                    <p>© Copyright 2023. Made by <a href="#" class="underline cursor-pointer">Hameez Khan</a></p>
+                </div>
+                <img class="hidden lg:block max-w-[320px] ml-auto" src="../images/svg/93.png" alt="">
             </div>
         </div>
     </footer>

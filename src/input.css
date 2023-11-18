@@ -8,6 +8,10 @@
         padding: 0;
         color: #fff;
         scroll-behavior: smooth;
+        font-family: 'Maven Pro', sans-serif;
+    }
+    h1, h2, h3, h5 {
+        letter-spacing: 10px;
     }
     a {
         color: #fff;
@@ -15,8 +19,5 @@
     }
     li {
         list-style: none;
-    }
-    .scroll_bar-hidden::-webkit-scrollbar {
-        display: none   ;
     }
 }

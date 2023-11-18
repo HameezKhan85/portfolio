@@ -12,21 +12,10 @@ module.exports = {
         },
       },
       padding: {
-        section: '4rem',
+        section: '3rem',
       },
       margin: {
-        container: '4rem',
-      },
-      fontSize: {
-        xsmall: '.75rem',
-        small: '.875rem',
-        large: '1.125rem',
-        xlarge: '1.25rem',
-        txl: '1.5rem',
-        thxl: '1.875rem',
-        fxl: '2.25rem',
-        fvxl: '3rem',
-        sxl: '3.75rem',
+        container: '3rem',
       },
     },
   },
