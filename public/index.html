@@ -409,13 +409,14 @@
                             I will get back to you as soon as possible.</p>
                         <hr class="w-24 h-1 bg-primary border-0 mx-auto lg:mx-0">
                     </div>
-                    <form method="post" action="" class="flex lg:block flex-col justify-center item-center">
+                    <form method="post" action="" data-netlify="true" onSubmit="submit" data-netlify-honeypot="bot-field" class="flex lg:block flex-col justify-center item-center">
+                        <input class="hidden" name="bot-field">
                         <input type="email" name="email"
                             class="p-6 bg-secondary-light placeholder-gray-300 mb-6 w-full hover:opacity-80"
                             placeholder="Email" required>
                         <textarea class="p-6 bg-secondary-light placeholder-gray-300 mb-6 w-full hover:opacity-80"
                             placeholder="Massage" name="massage" rows="6"></textarea>
-                        <button class="bg-primary px-8 py-3 mx-auto lg:mx-0 hover:opacity-80">SEND MASSAGE</button>
+                        <button class="bg-primary px-8 py-3 mx-auto lg:mx-0 hover:opacity-80" name="submit">SEND MASSAGE</button>
                     </form>
                 </div>
                 <img class="hidden lg:block min-w-[480px]" src="../images/svg/14.png" alt="">
