@@ -1077,6 +1077,11 @@ li {
     -moz-column-gap: 2.5rem;
          column-gap: 2.5rem;
   }
+
+  .xl\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
 }
 
 @media (min-width: 1536px) {
