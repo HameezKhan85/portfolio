@@ -573,11 +573,6 @@ li {
   margin-bottom: 0.75rem;
 }
 
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
 .my-6 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
@@ -697,10 +692,6 @@ li {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
-.grid-cols-5 {
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -715,10 +706,6 @@ li {
 
 .justify-between {
   justify-content: space-between;
-}
-
-.gap-10 {
-  gap: 2.5rem;
 }
 
 .gap-4 {
@@ -800,11 +787,6 @@ li {
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
-}
-
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
 }
 
 .py-28 {
