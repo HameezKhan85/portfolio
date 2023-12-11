@@ -568,6 +568,11 @@ li {
   margin-right: auto;
 }
 
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
 .my-3 {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
@@ -640,6 +645,10 @@ li {
   display: flex;
 }
 
+.inline-flex {
+  display: inline-flex;
+}
+
 .grid {
   display: grid;
 }
@@ -694,6 +703,10 @@ li {
 
 .flex-col {
   flex-direction: column;
+}
+
+.items-start {
+  align-items: flex-start;
 }
 
 .items-center {
@@ -789,9 +802,9 @@ li {
   padding-bottom: 2.5rem;
 }
 
-.py-28 {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .py-3 {
@@ -807,26 +820,6 @@ li {
 .py-section {
   padding-top: 3rem;
   padding-bottom: 3rem;
-}
-
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-}
-
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
 }
 
 .pl-4 {
@@ -853,11 +846,6 @@ li {
 
 .text-5xl {
   font-size: 3rem;
-  line-height: 1;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
   line-height: 1;
 }
 
@@ -926,6 +914,11 @@ li {
   background-color: rgb(254 73 86 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-secondary-medium:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(35 38 58 / var(--tw-bg-opacity));
+}
+
 .hover\:text-blue-500:hover {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
@@ -978,8 +971,8 @@ li {
 }
 
 @media (min-width: 768px) {
-  .md\:inline-flex {
-    display: inline-flex;
+  .md\:flex {
+    display: flex;
   }
 
   .md\:hidden {
@@ -992,11 +985,6 @@ li {
 
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .md\:py-28 {
-    padding-top: 7rem;
-    padding-bottom: 7rem;
   }
 }
 
